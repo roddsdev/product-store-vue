@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   main:
-    container_name: VueServer
+    container_name: LaravelServer
     build:
       context: .
       dockerfile: Dockerfile

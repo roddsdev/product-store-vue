@@ -1,6 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/289ba58f-8064-45df-8e66-05a6687a1369)
 
 
 ## Project CRUD Laravel + VueJs
@@ -32,7 +32,8 @@ This is a small project made with:
 
 - Download project
 - Access project folder by terminal
-- Use command `composer install`
+- Use command `composer install` (to install PHP dependencies - "vendor" folder)
+- Use command `npm install` (to install Javascript dependencies - "node_modules" folder)
 - Rename ".env.example" file to ".env"
 - Use command `php artisan migrate`
 - (optional) Use command `php artisan db:seed` (generate ramdom records in the database)
@@ -49,32 +50,37 @@ This is a small project made with:
 
 - Access project folder
 - Use command `docker compose up`
+- Use the command `docker compose exec main sh` (to access command line of container)
+- Use command `composer install`
+- Use command `npm install`
+- Rename ".env.example" file to ".env"
+- Use command `php artisan migrate`
+- (optional) Use command `php artisan db:seed` (generate ramdom records in the database)
+- Use command `exit` (to leave docker container)
 - Use the command `docker compose exec main npm run dev` to run development environment server
-- (optional) To access command line of container, use the command `docker compose exec main sh`
 - Go to page `http://127.0.0.1:8000/`
 
 ## More projects:
 
-- **[Meu repository](https://github.com/roddsdev?tab=repositories)**
+- **[My repository](https://github.com/roddsdev?tab=repositories)**
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Screenshots
-(image)
 
 ### Product list
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/6204d48a-0450-4dab-b81b-ab821317524b)
 
 ### Pagination
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/2de90bfc-a6b9-494d-a30b-f224152d4b15)
 
 ### Detail of selected product and its relations
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/d28942cc-60cb-49cb-98cf-2c92bea1a3f3)
 
 ### Detail of selected category and its relations products
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/c3443329-1928-4db7-852b-89953352f445)
 
 ### Form validations
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/ad100f21-2f47-4d53-b7e9-ad2bc8cc2c99)

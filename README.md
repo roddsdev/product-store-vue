@@ -32,7 +32,8 @@ Este é um pequeno projeto feito com:
 
 - Baixar projeto
 - Acessar pasta via terminal 
-- Usar o comando `composer install`
+- Usar o comando `composer install` (instalar dependências do PHP - pasta "vendor")
+- Usar o comando `npm install` (instalar dependências do Javascript - pasta "node_modules")
 - Renomear o arquivo ".env.example" para ".env"
 - Usar o comando `php artisan migrate`
 - (opcional) usar o comando `php artisan db:seed` (se quiser gerar registros randômicos no banco de dados)
@@ -49,8 +50,14 @@ Este é um pequeno projeto feito com:
 
 - Acessar a pasta do projeto
 - Usar o comando `docker compose up`
+- Acessar o container em linha de comando usando o comando `docker compose exec main sh`
+- Usar o comando `composer install`
+- Usar o comando `npm install`
+- Renomear o arquivo ".env.example" para ".env"
+- Usar o comando `php artisan migrate`
+- (opcional) usar o comando `php artisan db:seed` (se quiser gerar registros randômicos no banco de dados)
+- Usar o comando `exit` (para sair do container docker)
 - Use o comando `docker compose exec main npm run dev` para subir o servidor do ambiente de desenvolvimento
-- (opcional) Para acessar o container em linha de comando, use o comando `docker compose exec main sh`
 - Acessar o endereço `http://127.0.0.1:8000/`
 
 ## Mais projetos em:
