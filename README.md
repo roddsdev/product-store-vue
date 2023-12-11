@@ -1,6 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/289ba58f-8064-45df-8e66-05a6687a1369)
+
 
 ## Projeto CRUD Laravel + VueJs
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/roddsdev/product-store-vue/blob/main/README.en.md)
@@ -61,20 +62,19 @@ Este é um pequeno projeto feito com:
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Screenshots
-(image)
 
 ### Lista de produtos
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/6204d48a-0450-4dab-b81b-ab821317524b)
 
 ### Paginação
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/2de90bfc-a6b9-494d-a30b-f224152d4b15)
 
 ### Detalhe do produto selecionado e seus relacionamentos
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/d28942cc-60cb-49cb-98cf-2c92bea1a3f3)
 
 ### Detalhe da categoria e os produtos a ela relacionados
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/c3443329-1928-4db7-852b-89953352f445)
 
 ### Validações de formulário
-(image)
+![image](https://github.com/roddsdev/product-store-vue/assets/148573340/ad100f21-2f47-4d53-b7e9-ad2bc8cc2c99)
 
