@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* My custom styles */
+@layer base {
+    h2 {
+      @apply font-semibold text-xl text-gray-800 leading-tight;
+    }
+    table {
+      @apply table-auto w-full border-collapse border border-gray-400;
+    }
+    table > thead {
+      @apply text-gray-700 uppercase bg-gray-50;
+    }
+    table > thead > tr > th {
+      @apply px-6 py-3 border-collapse border border-gray-400;
+    }
+    table > tbody > tr  {
+      @apply hover:bg-gray-50 border-b;
+    }
+    table > tbody > tr > td  {
+      @apply px-2 py-4 border-collapse border border-gray-400;
+    }
+    .pagination {
+      @apply flex items-center flex-wrap md:flex-row justify-between pt-4;
+    }    
+    .pagination .pagination-showing {
+      @apply text-sm font-normal text-gray-500 dark:text-gray-400 mb-4 md:mb-0 block w-full md:inline md:w-auto;
+    }
+    .pagination .pagination-buttons {
+      @apply flex items-center justify-center px-3 h-8 border-gray-300 border;
+    }
+    .pagination ul {
+      @apply inline-flex -space-x-px rtl:space-x-reverse text-sm h-8;
+    }
+    .pagination li {
+      @apply inline-flex;
+    }
+    select {
+      @apply border border-gray-300 text-gray-900 rounded-md focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5;
+    }
+    /* ... */ 
+}
